@@ -1,9 +1,9 @@
-name: Greetings
+name:Greet
 
 on: [pull_request_target, issues]
 
-jobs:
-  greeting:
+jobs:Associate/Partner
+  greeting:"well we meet again the names babu"
     runs-on: ubuntu-latest
     permissions:
       issues: write
